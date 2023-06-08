@@ -38,9 +38,9 @@ module ClkDiv_FASTER(
 	reg CLKOUT;
 	
 	// Value to toggle output clock at
-	parameter cntEndVal = 24'h0F4240;
+	parameter cntEndVal = 24'h1E8480;
 	// Current count
-	reg [23:0] clkCount = 24'h0F4240;
+	reg [23:0] clkCount = 24'h1E8480;
 	
 
 // ===========================================================================
